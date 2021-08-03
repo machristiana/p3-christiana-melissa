@@ -1,0 +1,30 @@
+{
+    "name": "p3-christiana-melissa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "webpack --watch",
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/machristiana/p3-christiana-melissa.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/machristiana/p3-christiana-melissa/issues"
+    },
+    "homepage": "https://github.com/machristiana/p3-christiana-melissa#readme",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.3.2",
+        "webpack": "^5.48.0",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "watch": "^1.0.2"
+    }
+}
