@@ -166,7 +166,16 @@ footer {
         margin-left: 3%;
     }
     .button {
-        padding-top: 7%;
+        padding-top: 5%;
+    }
+}
+
+
+/********************** START 900PX MEDIA QUERY ****************************/
+
+@media (min-width: 900px) {
+    .button {
+        padding-top: 2%;
     }
 }
 

@@ -23,7 +23,7 @@ class App {
                     <main id="container" class="site-content">
                         <figure id="randomize">
                             <div>
-                                <img id="image" src="${lunches.foodImages}" alt="Lunch Image" title="Lunch Image">
+                                <img id="image" src="${lunches.foodImages}" alt="" title="">
                             </div>
                             <figcaption id="figcaption">
                                 <h2 id="title">${lunches.foodTitle}</h2>
