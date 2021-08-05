@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 150px;
+    padding-top: 5%;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding-bottom: 15%;
+}
+
+h1 {
+    font-family: tomarik-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #cae0ff;
+    text-shadow: 2px 2px 4px black;
+    padding: 0 2%;
+}
+
+figure {
+    margin: 0;
+    padding: 8%;
+}
+
+figure img {
+    border-radius: 25px;
+    max-width: 400px;
+}
+
+figure div {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px 4px #0c2232;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 3%;
+}
+
+figcaption {
+    color: white;
+    text-shadow: 2px 2px 4px #0c2232;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 3% 4% 4% 4%;
+    border-radius: 25px;
+}
+
+.button {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0c2232;
+    padding: 5%;
+    background: white;
+    border: #0c2232 solid 3px;
+    border-radius: 25px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: white;
+    background: #0c2232;
+    border: white solid 3px;
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #0c2232;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #213644;
+    opacity: .8;
+    padding: 1% 0;
+}
+
+
+/************************* START STICKY FOOTER ***************************/
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px;
+    border: white 1px solid;
+    position: relative;
+}
+
+.site-content {
+    flex: 1;
+}
+
+
+/********************** START 500PX MEDIA QUERY ****************************/
+
+@media (min-width: 500px) {
+    a {
+        padding: 2%;
+    }
+}
+
+
+/********************** START 600PX MEDIA QUERY ****************************/
+
+@media (min-width: 600px) {
+    .button {
+        margin-top: -25%;
+    }
+}
+
+
+/********************** START 700PX MEDIA QUERY ****************************/
+
+@media (min-width: 700px) {
+    figure {
+        padding: 5%;
+        display: flex;
+        margin-top: 10%;
+    }
+    figure div {
+        align-self: center;
+    }
+    figure img {
+        max-width: 1000px;
+    }
+    figcaption {
+        width: 180%;
+        padding: 2% 3%;
+        align-self: center;
+        margin-left: 3%;
+    }
+    .button {
+        padding-top: 7%;
+    }
+}
+
+
+/********************** START 1000PX MEDIA QUERY ****************************/
+
+@media (min-width: 1000px) {
+    a {
+        padding: 1%;
+    }
+}
